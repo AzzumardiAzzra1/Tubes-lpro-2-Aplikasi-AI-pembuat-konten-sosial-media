@@ -23,14 +23,16 @@ func main() {
     
     
 
-	for pilih != 6 {
+	for pilih != 8 {
 		fmt.Println("\n=== MENU UTAMA ===")
 		fmt.Println("1. Tambah Ide Konten")
 		fmt.Println("2. Lihat Semua Konten")
-		fmt.Println("3. Cari Konten (Sequential)")
-		fmt.Println("4. Urutkan Konten")
-		fmt.Println("5. Engagement Tertinggi")
-		fmt.Println("6. Keluar")
+		fmt.Println("3. Hapus Konten")
+		fmt.Println("4. Cari Konten")
+		fmt.Println("5. Ubah Konten")
+		fmt.Println("6. Urutkan Konten Berdasarkan Tanggal")
+		fmt.Println("7. Urutkan Konten Berdasarkan Tingkat Engagement")
+		fmt.Println("8. Keluar")
 		fmt.Print("Pilih menu: ")
 
 		var pilih int
